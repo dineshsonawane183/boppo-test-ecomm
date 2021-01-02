@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>atom/icon/complete</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset-11" transform="translate(-218.000000, -238.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="atom/icon/complete" transform="translate(218.000000, 238.000000)">
+                <path d="M10,0 C4.45833333,0 0,4.45833333 0,10 C0,15.5416667 4.45833333,20 10,20 C15.5416667,20 20,15.5416667 20,10 C20,4.45833333 15.5416667,0 10,0 Z M8.04166667,14.5416667 L4.08333333,10.5833333 C3.92225028,10.4222503 3.92225028,10.1610831 4.08333333,10 C4.24441639,9.83891695 4.50558361,9.83891695 4.66666667,10 L8.04166667,13.375 L8.04166667,13.375 L15.3333333,6.08333333 C15.4944164,5.92225028 15.7555836,5.92225028 15.9166667,6.08333333 C16.0777497,6.24441639 16.0777497,6.50558361 15.9166667,6.66666667 L8.04166667,14.5416667 L8.04166667,14.5416667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

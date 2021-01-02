@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.new-toast-error {
+    background-color: #BD362F;
+  }
+
+  .new-toast-warning {
+    background-color: #F89406;
+  }
+  .new-toast-success {
+    background-color: #2b6d05;
+  }
+  .toast-container.toast-bottom-center {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .toast-container.toast-bottom-center .toast {
+    background-image: none;
+    padding: 15px 25px 15px 55px;
+    width: auto;
+    position: relative;
+  }
+  
+  .toast-container.toast-bottom-center .toast:before {
+    position: absolute;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-success {
+    background-color: #51A351;
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-info {
+    background-color: #6f6f8d;
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-error {
+    background-color: #BD362F;
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-warning {
+    background-color: #F89406;
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-success:before {
+    content: '';
+    background-image: url("./assets/images/toastr-complete.svg");
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-info:before {
+    content: '';
+    background-image: url("./assets/images/toastr-info.svg");
+  }
+  
+  .toast-container.toast-bottom-center .new-toast-error:before,
+    .toast-container.toast-bottom-center .new-toast-warning:before {
+    content: '';
+    background-image: url("./assets/images/toastr-error.svg");
+  }

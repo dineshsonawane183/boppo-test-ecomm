@@ -1,0 +1,6 @@
+export enum ActionTypes {
+    GET_PRODUCT = '[PRODUCT] GET ALL PRODUCT',
+    ADD_PRODUCT = "[PRODUCT] ADD PRODUCT",
+    ADD_CART = "[CART] ADD TO CART",
+    GET_CART = "[CART] GET CART"
+}

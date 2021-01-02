@@ -1,0 +1,32 @@
+<mat-card class="example-card">
+    <div class="row">  
+      <div class="col-md-12">
+        <div class="row">
+        <div class="col-md-3 mt-3"  *ngFor = "let item of products">
+          <div class="card"> 
+          <div (click)="viewProduct(item)">         
+            <img mat-card-image class="rounded mx-auto d-block img-responsive mt-3" src="{{item.product_image}}" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h6 class="card-title font-weight-bold">{{item?.product_name}}</h6>
+              <div class="row" (click)="viewProduct(item)">
+                <div class="col-md-6">
+                  <p class="card-text"> <small> {{item?.product_weight}} </small></p>
+                </div>
+                <div class="col-md-6">
+                <p class="text-right"> <small> Rs {{item?.product_price}} </small> </p>
+                </div>
+              </div>
+              <div class="text-center">
+              <button class="btn btn-sm btn-primary"(click)="addToCart(item?.pid)" >Add to Cart</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      </div>
+  
+  </mat-card>
+  

@@ -1,0 +1,39 @@
+<div *ngIf="showMsg" class="msgClass text-center"> Product Added to cart sucessfully!!! </div>
+
+<div class="card text-center">
+       <div class="card-header">
+      Your Cart Items
+      <button type="button" class="btn btn-sm btn-warning float-right">
+          Total items <span class="badge badge-light">{{cartItemsList.length}}</span>        
+      </button>
+    </div>
+    <div class="card-body">  
+      <table class="table">
+        <thead>
+          <tr>      
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          
+          </tr>
+          <tr *ngFor="let itm of cartItemsList ">      
+            <td class="text-left">{{itm.name}}</td>
+            <td>{{itm.price/itm.qty}} Rs.</td>
+            <td class="w30">
+              <div class="input-group input-group-sm mb-3">
+                <input type="text" class="form-control text-center" value="{{itm.qty}}" #qtyRef >
+              </div>
+            </td>
+            <td>{{itm.price}}</td>
+          </tr>
+          </tbody>
+      </table>
+    </div>
+    <div class="card-footer text-muted font-weight-bold">
+    </div>  
+  </div>
